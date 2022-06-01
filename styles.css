@@ -25,6 +25,7 @@ h1 {
   font-size: x-large;
   color: blue;
 }
+
 .box1 {
   background-color: steelblue;
   width: 50%;
@@ -34,7 +35,7 @@ h1 {
   left: 0;
 }
 .container:hover .box1 {
-  transform: translateX(-100px) rotate(-90deg);
+  transform: translateX(-100px) rotate(90deg);
 }
 
 .box2 {
@@ -46,7 +47,7 @@ h1 {
   left: 0;
 }
 .container:hover .box2 {
-  transform: translateX(-100px) rotate(90deg);
+  transform: translateX(-100px) rotate(-90deg);
 }
 
 .box3 {
@@ -58,7 +59,7 @@ h1 {
   right: 0;
 }
 .container:hover .box3 {
-  transform: translateX(100px) rotate(90deg);
+  transform: translateX(100px) rotate(-90deg);
 }
 
 .box4 {
@@ -70,5 +71,5 @@ h1 {
   right: 0;
 }
 .container:hover .box4 {
-  transform: translateX(100px) rotate(-90deg);
+  transform: translateX(100px) rotate(90deg);
 }
