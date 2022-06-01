@@ -27,7 +27,6 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-  transition: 1s;
 }
 .container:hover .box1 {
   transition-duration: 1s;
@@ -46,7 +45,6 @@ h1 {
 .container:hover .box2 {
   transition-duration: 1s;
   transform: translateX(-100px) rotate(-90deg);
-
   transition-delay: 1s;
 }
 
@@ -60,7 +58,7 @@ h1 {
 }
 .container:hover .box3 {
   transition-duration: 1s;
-  transform: translateX(100px) rotate(90deg);
+  transform: translateX(100px) rotate(-90deg);
   transition-delay: 1s;
 }
 
