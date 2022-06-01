@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: 0;
 }
+body {
+  height: 100vh;
+}
 .container {
   position: relative;
   border: 1px;
@@ -10,8 +13,10 @@
   height: 400px;
   margin: 0 auto;
   top: 150px;
+}
+.container div {
+  transition-delay: 1s;
   transition-duration: 1s;
-  transition-property: all;
 }
 h1 {
   top: 182px;
@@ -29,9 +34,7 @@ h1 {
   left: 0;
 }
 .container:hover .box1 {
-  transition-duration: 1s;
   transform: translateX(-100px) rotate(-90deg);
-  transition-delay: 1s;
 }
 
 .box2 {
@@ -43,9 +46,7 @@ h1 {
   left: 0;
 }
 .container:hover .box2 {
-  transition-duration: 1s;
   transform: translateX(-100px) rotate(90deg);
-  transition-delay: 1s;
 }
 
 .box3 {
@@ -57,9 +58,7 @@ h1 {
   right: 0;
 }
 .container:hover .box3 {
-  transition-duration: 1s;
   transform: translateX(100px) rotate(90deg);
-  transition-delay: 1s;
 }
 
 .box4 {
@@ -71,7 +70,5 @@ h1 {
   right: 0;
 }
 .container:hover .box4 {
-  transition-duration: 1s;
   transform: translateX(100px) rotate(-90deg);
-  transition-delay: 1s;
 }
