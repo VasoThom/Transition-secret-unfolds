@@ -17,6 +17,7 @@ body {
 .container div {
   transition-delay: 1s;
   transition-duration: 1s;
+  transition-property: all;
 }
 h1 {
   top: 182px;
@@ -35,7 +36,7 @@ h1 {
   left: 0;
 }
 .container:hover .box1 {
-  transform: translateX(-100px) rotate(90deg);
+  transform: translateX(-200px) rotate(90deg);
 }
 
 .box2 {
@@ -47,7 +48,7 @@ h1 {
   left: 0;
 }
 .container:hover .box2 {
-  transform: translateX(-100px) rotate(-90deg);
+  transform: translateX(-200px) rotate(-90deg);
 }
 
 .box3 {
@@ -59,7 +60,7 @@ h1 {
   right: 0;
 }
 .container:hover .box3 {
-  transform: translateX(100px) rotate(-90deg);
+  transform: translateX(200px) rotate(-90deg);
 }
 
 .box4 {
@@ -71,5 +72,5 @@ h1 {
   right: 0;
 }
 .container:hover .box4 {
-  transform: translateX(100px) rotate(90deg);
+  transform: translateX(200px) rotate(90deg);
 }
