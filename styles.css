@@ -15,8 +15,10 @@
 }
 h1 {
   top: 182px;
-  left: 178px;
+  left: 115px;
   position: absolute;
+  font-size: x-large;
+  color: blue;
 }
 .box1 {
   background-color: steelblue;
